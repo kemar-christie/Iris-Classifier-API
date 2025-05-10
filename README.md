@@ -11,7 +11,7 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 * 🔮 Predict Iris species using sepal and petal measurements
 * ⚡ Built with FastAPI for speed and automatic documentation
 * 🧠 Powered by scikit-learn
-* 📄 Swagger UI available at /docs (ipaddress:8000/docs)
+* 📄 Swagger UI available at /docs (http://127.0.0.1:8000/docs)
 
 <br>
 
