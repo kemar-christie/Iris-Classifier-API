@@ -1,1 +1,77 @@
-# Cloud-Based-Machine-Learning-Inference-API
+# 🌸 Iris-Classifier-API
+
+<br>
+
+## 📝 Description
+A simple and fast REST API built with FastAPI that predicts the species of an Iris flower using a trained machine learning model. This project uses the classic Iris dataset and demonstrates how to serve a scikit-learn model through a production-ready API.
+
+<br>
+
+## 🚀 Features
+* 🔮 Predict Iris species using sepal and petal measurements
+* ⚡ Built with FastAPI for speed and automatic documentation
+* 🧠 Powered by scikit-learn
+* 📄 Swagger UI available at /docs (ipaddress:8000/docs)
+
+<br>
+
+## 📊 Model Details
+* **Dataset**: Iris Dataset
+* **Algorithm**: Logistic Regression
+* **Classes**:
+  - 0: Iris-setosa
+  - 1: Iris-versicolor
+  - 2: Iris-virginica
+
+<br>
+
+## 🔧 Requirements
+```text
+scikit-learn == 1.6.1
+pandas == 2.2.3
+fastapi == 0.115.12
+uvicorn == 0.34.2
+```
+
+<br>
+
+## 🧪 How to Use
+1. Start the API
+```bash
+uvicorn interface_API:app --reload
+```
+Visit http://127.0.0.1:8000/docs to access the interactive Swagger UI.
+
+2. Send a Prediction Request
+Endpoint: POST /predict
+Request JSON:
+```json
+[6.1, 3.1, 5.0, 1.6]
+```
+```format
+[sepal_length, sepal_width, petal_length, petal_width]
+```
+
+Response:
+```json
+{
+  "prediction": 2
+}
+```
+
+<br>
+
+## 🛠️ Project Structure
+```text
+Iris-Classifier-API/code
+├── interface_API.py                                   # FastAPI app
+├── local_ml_model_generator.py                        # Model training script
+├── local_ml_model.pkl                                 # Trained model file
+Iris-Classifier-API/workspace_requirements
+├── requirements.txt                                   # Packages Needs for Project to run
+Iris-Classifier-API/
+├── .gitignore                                         # Ignore files and folders
+├── LICENSE                                            # License File for Repo
+├── NOTICE                                             # Notice File for Repo
+├── README.md                                          # Description of Project
+```
