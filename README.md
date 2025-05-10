@@ -55,14 +55,14 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
    ```
 
 4. Start the API
+<br> Visit http://127.0.0.1:8000/docs to access the interactive Swagger UI.
     ```bash
     uvicorn interface_API:app --reload
     ```
-<br> Visit http://127.0.0.1:8000/docs to access the interactive Swagger UI.
 
-5. Test the API by Sending a Prediction Request
-Endpoint: POST /predict
-Request JSON:
+5. Test the API by Sending a Prediction Request 
+<br> Endpoint: POST /predict
+<br> Request JSON:
   ```json
   [6.1, 3.1, 5.0, 1.6]
   ```
