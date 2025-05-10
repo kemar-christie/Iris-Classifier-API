@@ -63,12 +63,12 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 5. Test the API by Sending a Prediction Request 
 <br> Endpoint: POST /predict
 <br> Request JSON:
-  ```json
-  [6.1, 3.1, 5.0, 1.6]
-  ```
-  ```format
-  [sepal_length, sepal_width, petal_length, petal_width]
-  ```
+    ```json
+    [6.1, 3.1, 5.0, 1.6]
+    ```
+    ```format
+    [sepal_length, sepal_width, petal_length, petal_width]
+    ```
 
 Response:
   ```json
