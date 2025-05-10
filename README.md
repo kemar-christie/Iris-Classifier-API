@@ -43,7 +43,7 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
    ```
 
 2. Install Dependencies
-<br> Ensure you have Python 3.9+ installed. Then install the required libraries:
+<br> Ensure you have Python 3.9+ installed. Then, install the required libraries by navigating to the folder where "requirements.txt" is located:
    ```bash
    pip install -r requirements.txt
    ```
