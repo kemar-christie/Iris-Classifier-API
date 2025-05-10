@@ -35,39 +35,47 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 
 <br>
 
-## 🔧 Requirements
-```text
-scikit-learn == 1.6.1
-pandas == 2.2.3
-fastapi == 0.115.12
-uvicorn == 0.34.2
-```
+## ▶️ How to Run IRIS-CLASSIFIER-API
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/kemar-christie/Iris-Classifier-API
+   cd Iris-Classifier-API
+   ```
 
-<br>
+2. Install Dependencies
+<br> Ensure you have Python 3.9+ installed. Then install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🧪 How to Use
-1. Start the API
-```bash
-uvicorn interface_API:app --reload
-```
+3. Run Generator Script
+   ```bash
+   cd code
+   python local_ml_model_generator.py
+   ```
+
+4. Start the API
+  ```bash
+  uvicorn interface_API:app --reload
+  ```
 Visit http://127.0.0.1:8000/docs to access the interactive Swagger UI.
 
-2. Send a Prediction Request
+5. Test the API by Sending a Prediction Request
 Endpoint: POST /predict
 Request JSON:
-```json
-[6.1, 3.1, 5.0, 1.6]
-```
-```format
-[sepal_length, sepal_width, petal_length, petal_width]
-```
+  ```json
+  [6.1, 3.1, 5.0, 1.6]
+  ```
+  ```format
+  [sepal_length, sepal_width, petal_length, petal_width]
+  ```
 
 Response:
-```json
-{
-  "prediction": 2
-}
-```
+  ```json
+  {
+    "prediction": 2
+  }
+  ```
 
 <br>
 
