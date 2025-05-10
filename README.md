@@ -70,7 +70,7 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
     [sepal_length, sepal_width, petal_length, petal_width]
     ```
 
-  Response:
+    Response:
     ```json
     {
       "prediction": 2
