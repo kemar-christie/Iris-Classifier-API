@@ -3,7 +3,7 @@
 <br>
 
 ## 📝 Description
-A simple and fast REST API built with FastAPI that predicts the species of an Iris flower using a trained machine learning model. This project uses the classic Iris dataset and demonstrates how to serve a scikit-learn model through a production-ready API.
+A simple and fast REST API built with FastAPI that predicts the species of an Iris flower using a trained machine learning model. This project uses the classic Iris dataset and demonstrates how to serve a scikit-learn model through a production-ready API. The Iris dataset consists of 150 samples of iris flowers from three different species: Setosa, Versicolor, and Virginica. Each sample includes four features: sepal length, sepal width, petal length, and petal width. 
 
 <br>
 
