@@ -23,6 +23,16 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
   - 1: Iris-versicolor
   - 2: Iris-virginica
 
+  Petal Length:
+  - Iris setosa: 1.0 to 1.9 cm 
+  - Iris versicolor: 3.0 to 5.1 cm
+  - Iris virginica: 4.5 to 6.9 cm
+    
+  Petal Width:
+  - Iris setosa: 0.1 to 0.6 cm
+  - Iris versicolor: 1.0 to 1.8 cm
+  - Iris virginica: 1.4 to 2.5 cm
+
 <br>
 
 ## 🔧 Requirements
