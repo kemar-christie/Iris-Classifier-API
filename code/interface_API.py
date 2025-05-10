@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 
 app = FastAPI()
-model = pickle.load(open("iris_model.pkl", "rb"))
+model = pickle.load(open("local_ml_model.pkl", "rb"))
 
 @app.get("/")
 def root():
@@ -15,4 +15,5 @@ def root():
 @app.post("/predict")
 def predict(features: list[float]):
     prediction = model.predict([features])
+    print(f"Prediction: {prediction[0]}, Type: {type(prediction[0])}")
     return {"prediction": int(prediction[0])}
