@@ -83,14 +83,14 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 ## 🛠️ Project Structure
 ```text
 Iris-Classifier-API/
-├── .gitignore                                             # Ignore files and folders
-├── LICENSE                                                # License File for Repo
-├── NOTICE                                                 # Notice File for Repo
-├── README.md                                              # Description of Project
-  Iris-Classifier-API/code
-  ├── interface_API.py                                     # FastAPI app
-  ├── local_ml_model_generator.py                          # Model training script
-  ├── local_ml_model.pkl                                   # Trained model file
+  ├── .gitignore                                             
+  ├── LICENSE                                               
+  ├── NOTICE                                                 
+  ├── README.md                                              
+    Iris-Classifier-API/code
+      ├── interface_API.py                                    
+      ├── local_ml_model_generator.py                          
+      ├── local_ml_model.pkl                                   
     Iris-Classifier-API/workspace_requirements
-    ├── requirements.txt                                   # Packages Needs for Project to run
+      ├── requirements.txt                                   
 ```
