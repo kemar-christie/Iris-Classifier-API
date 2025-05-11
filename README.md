@@ -12,7 +12,6 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 * ⚡ Built with FastAPI for speed and automatic documentation
 * 🧠 Powered by scikit-learn
 * 📄 Swagger UI available at /docs (http://127.0.0.1:8000/docs)
-* ☁️ Cloud-hosted on Render for easy and free deployment
 
 <br>
 
