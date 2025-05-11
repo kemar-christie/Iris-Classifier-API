@@ -7,11 +7,22 @@ A simple and fast REST API built with FastAPI that predicts the species of an Ir
 
 <br>
 
-## 🚀 Features
+## 🔧 Key Features
 * 🔮 Predict Iris species using sepal and petal measurements
 * ⚡ Built with FastAPI for speed and automatic documentation
 * 🧠 Powered by scikit-learn
+* 🧹 Utilizes pandas for efficient data preprocessing and manipulation
+* 🚀 Runs on Uvicorn, an ASGI server optimized for high performance
 * 📄 Swagger UI available at /docs (http://127.0.0.1:8000/docs)
+
+<br>
+
+## 🖥️ Technologies Used
+* 🐍 Python
+* 🏫 Scikit-learn
+* 🐼 Pandas
+* ⚡ FastAPI
+* 🚀 Uvicorn
 
 <br>
 
