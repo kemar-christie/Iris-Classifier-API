@@ -99,8 +99,7 @@ Iris-Classifier-API/
   ├── README.md                                              
     Iris-Classifier-API/code
       ├── interface_API.py                                    
-      ├── local_ml_model_generator.py                          
-      ├── local_ml_model.pkl                                   
+      ├── local_ml_model_generator.py                                              
     Iris-Classifier-API/workspace_requirements
       ├── requirements.txt                                   
 ```
