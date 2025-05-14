@@ -1,1 +1,35 @@
+Copyright 2025 Kemar Christie
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+This product includes software developed by the Iris-Classifier-API project
+(https://github.com/kemar-christie/Iris-Classifier-API/).
+
+Portions of this software are derived from the following:
+
+- Iris Dataset: Copyright 1936 Ronald A. Fisher
+
+We acknowledge the contributions of the following open-source libraries and their authors:
+- **scikit-learn** the scikit-learn developers – for providing machine learning algorithms and tools used in model training and evaluation.
+- **pandas** by the pandas development team – for enabling efficient data manipulation and analysis.
+- **FastAPI** by Sebastián Ramírez – for providing a modern, high-performance web framework for building APIs with Python.
+- **Uvicorn** by Tom Christie and contributors – for serving FastAPI with an ASGI server optimized for performance.
+
+We extend our gratitude to the open-source community for their continued innovation and support.
+
+This product also uses the following open-source libraries (with their respective licenses):
+
+- scikit-learn (License: BSD 3-Clause "New" or "Revised" License https://opensource.org/licenses/BSD-3-Clause)
+- pandas (License: BSD 3-Clause "New" or "Revised" License https://opensource.org/licenses/BSD-3-Clause)
+- FastAPI (License: MIT License https://opensource.org/licenses/MIT)
+- Uvicorn (License: BSD 3-Clause "New" or "Revised" License https://opensource.org/licenses/BSD-3-Clause)
